@@ -12,6 +12,6 @@ This is a basic HTML starter project . We have come up with a solution to try to
 
 ![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
 
-## You  this with Glitch!
+## Built this with Glitch!
 [Glitch](https://breath-lk.glitch.me)
 

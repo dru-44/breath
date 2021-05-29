@@ -1,0 +1,50 @@
+.navbar-custom {
+	margin-top: -2px;
+	background: rgb(136,128,104);
+	background: linear-gradient(180deg, rgba(136,128,104,1) 0%, rgba(187,177,144,1) 47%, rgba(241,228,185,1) 100%);
+	border-block-end: null
+}
+
+.navbar-custom .navbar-brand {
+	margin-top: 10px;
+	border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.navbar{
+	border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.websiteName { 
+	font-family: sans-serif;
+	text-align:left;
+	font-size:15px;
+	letter-spacing:3px;
+	margin-left: 15px;
+	color: white;
+}
+.otherInfo { 
+    color:rgba(255, 255, 255, 1);
+	width:76px;
+	height:27px;
+	font-family: sans-serif;
+	text-align:left;
+	font-size:15px;
+	letter-spacing:3px;
+}
+.navbar {
+    min-height: 80px;
+}
+.navbar-right{
+	margin-top: 10px;
+}
+.widthsettingofTable{
+	margin-top: 20px;
+	width: 80%;
+	margin-left: 8%;
+}
+body{
+	background-color: #FEF0C3;
+}

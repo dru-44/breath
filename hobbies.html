@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>BREATH</title>
+  <link rel="icon" type="image/png" href="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fasasas-removebg-preview.png?v=1621494968704"/>
+ 
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+    crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/ap-Style.css" />
+  <link rel="stylesheet" href="/css/mobile-style.css">
+
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+    
+  <!-- TODO: Add SDKs for Firebase products that you want to use
+       https://firebase.google.com/docs/web/setup#available-libraries -->
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-database.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-storage.js"></script>
+  
+
+  
+      
+   <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+ 
+
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid p-0">
+      <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="home.html">
+          <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fasasas-removebg-preview.png?v=1621494968704"  width="50" 
+          height="50" class="image" alt="" /> <br> Breath</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <i class="fas fa-align-right text-light"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            
+            
+            
+            <li class="nav-item">
+              <a class="nav-link" href="home.html">Home</a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="articles_page.html">Articles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="view-ap.html">Appointments</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- <div class="container text-center">
+      <div class="row">
+        <div class="col-md-7 col-sm-12  text-white">
+          <h6>FOCUS</h6>
+          <h1>EXCITING ADVENTURE</h1>
+          <p>
+            A book that guides many people to overcome their mental stress.
+          </p>
+          <button class="btn btn-light px-5 py-2 primary-btn">
+            By now for Rs. 999
+          </button>
+        </div>
+        <div class="col-md-5 col-sm-12  h-25">
+          <img src="../assets/header-img.png" alt="Book" />
+        </div>
+      </div>
+    </div> -->
+  </header>
+  <main>
+    <section class="section-1">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-6 col-12">
+            <div class="pray">
+              <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2FScreenshot%202021-05-27%20105215.png?v=1622092952222" alt="Pray" class="" />
+            </div>
+          </div>
+          <div class="col-md-6 col-12">
+            <div class="panel text-left">
+              <h1>HOBBIES</h1>
+              <p class="pt-4">
+                We are constantly looking for methods to find joy in our hectic lives.
+                 Whether it's learning to prepare a restaurant dish or studying a new language from a nation you've visited, 
+                 there's something for everyone. 
+              </p>
+              <p>
+                Picking up a new activity can sometimes offer you so much delight that you wish it was your full-time career! However,
+                 because these new interests do not fit into your busy schedule, it may be difficult to find time for them. Don't be concerned! With just a few ideas,
+                 you can quickly make more time for your leisure activities!
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="section-2 container-fluid p-0">
+      <div class="cover">
+        <div class="overlay"></div>
+        <div class="content text-center">
+          <h1>Some Features That Made Us Unique</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, eum?
+          </p>
+        </div>
+      </div>
+      <div class="container-fluid text-center">
+        <div class="numbers d-flex flex-md-row flex-wrap justify-content-center">
+          <div class="rect">
+            <h1>0</h1>
+            <p>Present Clients</p>
+          </div>
+          <div class="rect">
+            <h1>0</h1>
+            <p>Happy Clients</p>
+          </div>
+          <div class="rect">
+            <h1>0</h1>
+            <p>Experts</p>
+          </div>
+          
+        </div>
+      </div>
+      <section class="section-1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fmedidating.gif?v=1622093061402" alt="Pray" class="" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h1>Leave your phone at phone</h1>
+                <p class="pt-4">
+                  I'm serious about this! While our phones are wonderful pieces of technology that make our lives easier, 
+                  they are also one of our most significant sources of distraction. When trying to fit a pastime into your hectic schedule,
+                   bear in mind that you may not always need your phone to keep you company. 
+                </p>
+                <p>
+                  Of course, if you need to look up measurements for a cake you're baking or want to take a picture of your painting to post on Instagram, 
+                  grab your phone! But keep in mind that days are short and life is busy,
+                  so make the most of every time with the fewest distractions and interruptions possible!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fpngwing.com.png?v=1622093205720" alt="Pray" class="" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h1>Mark your calender</h1>
+                <p class="pt-4">
+                  Trying to juggle all of your hobbies while working a full-time job will only cause you to lose sight of your key responsibilities.
+                   For example, if you decide to devote your entire weekend to your interest,
+                   you may find yourself missing out on time with friends or family. 
+                </p>
+                <p>
+                  Instead, make a monthly list of 1–2 interests and schedule when you'll do them! Each month, 
+                  focus on a different pastime and devote one day a week to that activity!
+                   It could be something as simple as painting on a Sunday morning or going for a trek on a Saturday afternoon.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-1">
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <div class="pray">
+                <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2FScreenshot%202021-05-27%20104504.png?v=1622092518683" alt="Pray" class="" />
+              </div>
+            </div>
+            <div class="col-md-6 col-12">
+              <div class="panel text-left">
+                <h1>Find a Partner</h1>
+                <p class="pt-4">
+                  What could be better than having your own hobby? Why not do it with someone you care about? Whether you're preparing dinner with your parents one night, photographing nature with a buddy, or travelling to a new area with your loved ones, 
+                  sharing your hobbies with others is a terrific way to pursue your interests while making memories with the people who matter most to you! 
+                </p>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      
+    </section>
+    
+    <!-- Section 4 -->
+    <section class="section-4">
+      <div class="container text-center">
+        <h1 class="text-dark">What our Reader's Say about us</h1>
+      </div>
+      <div class="team row ">
+        <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                  <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fface_03.png?v=1622091240691" class="img-fluid border-radius p-4" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Blalock Jolene</h3><br>
+                  <p class="card-text">
+                    A course that will open your mind and heart. I thoroughly enjoyed it and learnt so much about Mindfulness and how I want to incorporate it into my daily life, relationships and personality. Thank you!
+                  </p>
+                  
+                </div>
+              </div>
+        </div>
+        <div class="col-md-4 col-12">
+            <div id="carouselExampleControls" class="carousel slide " data-ride="carousel">
+                <div class="carousel-inner text-center">
+                  <div class="carousel-item active">
+                    <div class="card mr-2 d-inline-block shadow">
+                      <div class="card-img-top">
+                        <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2FHEADSPACE_THUMBNAIL.jpg?v=1622091518301" class="img-fluid rounded-circle w-50 p-4" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Allen Agnes</h3>
+                        <p class="card-text">
+                          Quite an intensive course with lots of theory and practice. Make sure you have enough time before comitting to this course. But over all good experience, challenging and interesting. Meditation labs were great as well.
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <div class="card  d-inline-block mr-2 shadow">
+                      <div class="card-img-top">
+                        <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fface_02.png?v=1622091283102" class="img-fluid rounded-circle w-50 p-4" alt="">
+                      </div>
+                      <div class="card-body">
+                        <h3 class="card-title">Amiel Barbara</h3>
+                        <p class="card-text">
+                          This wonderful course will help me with plenty of aspects of my life. I am thankful and eager to keep practicing. But, most of all, I am excited about spreading the concept of being present. 
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+        </div>
+        <div class="col-md-4 col-12 text-center">
+            <div class="card mr-2 d-inline-block shadow-lg">
+                <div class="card-img-top">
+                  <img src="https://cdn.glitch.com/790fed21-1c10-4f77-a813-dad7e32da152%2Fface_01.png?v=1622091433397" class="img-fluid border-radius p-4" alt="">
+                </div>
+                <div class="card-body">
+                  <h3 class="card-title">Olivia Louis</h3><br>
+                  <p class="card-text">
+                    An incredible course.  Well set out.  The book and teachings are excellent.  The practical component is pitched just right.  Truly a course that everyone can understand and derive benefit from.
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <div class="container-fluid p-0">
+      <div class="row text-left">
+        <div class="col-md-5 col-sm-5">
+          <h4 class="text-light">About us</h4>
+          <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus, quos veritatis delectus, voluptate exercitationem nulla nostrum, aspernatur repellat earum commodi reprehenderit ab maiores autem magnam. Suscipit atque quam tempore. Repellendus!</p>
+        </div>
+        <div class="col-md-5 col-sm-12">
+          <h4 class="text-light">Newsletter</h4>
+          <p class="text-muted">Stay Updated</p>
+          <form class="form-inline">
+            <div class="col pl-0">
+              <div class="input-group pr-5">
+                <input type="text" class="form-control bg-dark text-white" id="inlineFormInputGroupUsername2" placeholder="Email">
+                <div class="input-group-prepend">
+                  <div class="input-group-text">
+                    <i class="fas fa-arrow-right"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-md-2 col-sm-12">
+          <h4 class="text-light">Follow Us</h4>
+          <p class="text-muted">Let us be social</p>
+          <div class="column text-light">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="/js/main.js"></script>
+  <script src="/js/index.js"></script>
+   
+
+    
+
+
+    <script>
+        firebase.auth().onAuthStateChanged(function(user){
+
+            if(!user)
+            {
+                window.location.href="index.html";
+            }
+
+        });
+    </script>
+</body>
+
+</html>

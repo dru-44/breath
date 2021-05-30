@@ -1,5 +1,5 @@
 # Hello, and welcome to Breath
-This is a basic HTML starter project . We have come up with a solution to try to address the importance and necessity of mental health and mindfulness which is not being stressed enough, through our easy to use website.
+This is a Web development project . We have come up with a solution to try to address the importance and necessity of mental health and mindfulness which is not being stressed enough, through our easy to use website.
 
 
 ## What's in this project?
